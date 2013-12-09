@@ -1,2 +1,17 @@
-Coloque aqui suas instru��es ou coment�rios que ache �til/relevantes para possamos ler 
-quando estivermos avaliando a sua solu��o
+Coloque aqui suas instru��es ou coment�rios que ache �til/relevantes para possamos ler 
+quando estivermos avaliando a sua solu��o
+
+-- Projeto feito com estrutura Maven, processa os dados e imprime ao final a tabela com a colocação do melhor para
+o pior segundo o critério diferença entre pessoas que matou e vezes que morreu.
+
+-- Deve-se passar o caminho absoluto do arquivo de log para acesso do programa
+
+Lista as armas preferidas de todos os players. Se houver empate, lista as armas empatadas;
+Identifica a melhor sequencia de assassinatos de todos os players
+Jogador que vencer uma partida sem morrer ganha um "achievement", listado na tabela final;
+Jogador que matar 5 vezes em 1 minuto devem ganhar um "achievement", listado na tabela final.
+
+A maior parte do código está testada, mas os códigos de teste não foram refatorados para não tomar tanto tempo da solução.
+
+Todo o programa foi feito "em memória". Entende-se que seria necessária uma estrutura melhor se os arquivos de log fossem
+muito grandes.
